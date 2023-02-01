@@ -4,7 +4,6 @@ body {
     user-select: none;
     font-family: 'Roboto', sans-serif;
 }
-
 #main {
     width: 75%;
     margin: auto;
@@ -50,9 +49,11 @@ form {
     background: #111;
     color: #fff;
 }
-
 ul {
+    overflow: hidden;
+    overflow-y: scroll;
     margin-top: 20px;
+    height: 20vh;
 }
 
 ul li {
