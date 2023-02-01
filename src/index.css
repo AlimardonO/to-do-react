@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    user-select: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main {
+    width: 75%;
+    margin: auto;
+}
+
+header {
+    padding: 1.5%;
+}
+
+ul,
+header,
+.searchPanel,
+form {
+    background: #fcfaf6;
+    -webkit-box-shadow: 2px 20px 31px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 2px 20px 31px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 20px 31px 2px rgba(0, 0, 0, 0.2);
+}
+
+.searchPanel {
+    margin-top: 20px;
+    padding: 20px 0 20px 20px;
+}
+
+.searchPanel input {
+    width: 50%;
+    padding: 15px;
+    outline: none;
+}
+
+.filterBtn button {
+    padding: 10px;
+    background: #fff;
+    outline: none;
+    border: 1px solid #111;
+    margin-right: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.filterBtn button:hover,form button:hover {
+    background: #111;
+    color: #fff;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul li {
+    width: 93%;
+    list-style: none;
+    padding: 2%;
+    text-align: center;
+}
+
+ul li:not(:last-child) {
+    border-bottom: 2px solid grey;
+}
+
+.btn {
+    font-size: 90%;
+    padding: 1%;
+    background: #f1f0ec;
+    border: 0;
+    float: right;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #dedddd;
+}
+
+.myid {
+    float: left;
+    font-size: 2rem;
+}
+
+.task {
+    font-size: 1.5rem;
+}
+
+.trashBtn {
+    color: red;
+}
+
+.checkedBtn {
+    color: rgb(84, 190, 84);
+}
+
+form {
+    padding: 0 0 30px 20px;
+    bottom: 0;
+    position: sticky;
+}
+
+form input {
+    width: 50%;
+    padding: 10px;
+    margin-top: 3%;
+    outline: none;
+}
+
+form button {
+    margin-left: 5px;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    background: #fff;
+    border: 1px solid #111;
+}
+
+.true {
+    color: rgb(84, 190, 84) !important;
+}
+
+.active {
+    background: #111 !important;
+    color: #fff !important;
+}
+
+.false {
+    color: black;
+}
+
+.favourite {
+    float: right;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #c0bfbf;
+}
